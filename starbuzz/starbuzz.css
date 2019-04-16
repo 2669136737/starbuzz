@@ -98,3 +98,17 @@ div#tableRow{
   padding:15px;
   vertical-align: top;
 }
+#tu01{
+  float: left;
+  background-image: url(images/header.gif);
+  width:400px;
+  height: 100px;
+
+}
+#tu02{
+  float: right;
+  background-image: url(images/header.gif);
+  width:400px;
+  height: 100px;
+  background-position: -400px,0px;
+}
