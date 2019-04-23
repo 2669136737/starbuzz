@@ -132,14 +132,52 @@ div#tableRow{
   left: 0px;
 
 }
-section#drinks{
-  display: table-cell;
+
+ul{
   background-color: #efe5d0;
-  width:20%;
-  padding:15px;
-  vertical-align: top;
+  margin: 10px 10px 0px 10px;
+  list-style-type: none;
+  padding: 5px 0px 5px 10px;
+
 }
-section#main{
-  display: table-cell;
-  background: #efe5d0 url(imagess/background.gif)
+ul li{
+  display: inline;
+  padding: 5px 10px 5px 10px;
+
+
+}
+ul li a:link,ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+
+}
+ul li.selected{
+  background-color: #c8b99c;
+}
+nav{
+  background-color: #efe5d0;
+  margin:  10px 10px 0px 10px;
+
+}
+nav ul{
+  margin: 0px;
+  list-style-type: none;
+  padding:  5px 0px 5px 0px;
+
+}
+nav ul li{
+  display: inline;
+  padding:  5px 10px 5px 10px;
+}
+nav ul li a:link,nav ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+
+
+
+}
+nav ul li.selected{
+  background-color:#c8b99c;
 }
