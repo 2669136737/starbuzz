@@ -5,7 +5,7 @@ body {
   margin:           0px;
 }
 
-#header {
+header {
   background-color: #675c47;
   
   height:           108px;
@@ -24,7 +24,7 @@ body {
   
 }
 
-#sidebar {
+aside {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -34,7 +34,7 @@ body {
 
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -116,13 +116,30 @@ div#tableRow{
   position: absolute;
   top:30px;
   left:365px;
+  line-height: auto;
 }
 #coupon{
   position: fixed;
   top: 350px;
-  left:-90px;
+  left:-230px;
+  transition: all 2s linear;
 
 }
 #coupon a,img{
   border: none;
+}
+#coupon:hover{
+  left: 0px;
+
+}
+section#drinks{
+  display: table-cell;
+  background-color: #efe5d0;
+  width:20%;
+  padding:15px;
+  vertical-align: top;
+}
+section#main{
+  display: table-cell;
+  background: #efe5d0 url(imagess/background.gif)
 }
