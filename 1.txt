@@ -1,0 +1,4 @@
+
+select email from Competitor
+	group by email
+	having count(*) >= 2
